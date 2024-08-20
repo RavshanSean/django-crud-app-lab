@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cat-container {
+    display: flex;
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.cat-img img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.cat-details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.cat-details h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cat-details h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.cat-details p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+
+.cat-actions {
+    margin-top: 20px;
+}
+
+.cat-actions .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.cat-actions .btn.warn {
+    background-color: #f0ad4e;
+}
+
+.cat-actions .btn.warn:hover {
+    background-color: #ec971f;
+}
+
+.cat-actions .btn.danger {
+    background-color: #d9534f;
+}
+
+.cat-actions .btn.danger:hover {
+    background-color: #c9302c;
+}
+
+
+h3 {
+    margin-top: 30px;
+    font-size: 1.8em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8f8f8;
+}
+
+table td {
+    font-size: 1em;
+}
+
+.subsection-content {
+    margin-top: 10px;
+}
+
+.subsection-content p {
+    font-size: 1em;
+    color: #d9534f;
+}
+
+
+.weapons {
+    margin-top: 40px;
+}
+
+.subsection-title {
+    display: flex;
+    align-items: center;
+}
+
+.subsection-title img {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.subsection-content {
+    margin-top: 20px;
+}
+
+.toy-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.color-block {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.toy-container p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.btn.submit {
+    background-color: #5cb85c;
+}
+
+.btn.submit:hover {
+    background-color: #4cae4c;
+}
+
+.no-weapons, .all-weapons {
+    font-size: 1em;
+    color: #d9534f;
+}
+
+.all{
+    border: solid 2px pink;
+    border-radius: 20px;
+    
+}

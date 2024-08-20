@@ -1,0 +1,61 @@
+* {
+  text-decoration: none;
+}
+
+.navbar {
+  background: pink;
+  font-family: calibri;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color:aliceblue;
+
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  border: solid 2px rgb(11, 204, 239);
+  border-radius: 30px;
+  margin: 10px;
+  padding: 2px;
+  text-align: center;
+  
+
+}
+
+li a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
+  
+ 
+  
+}
+
+.logo img {
+  width: 200px;
+  height: 150px;
+  
+  
+}
+
+.logo {
+  background-color: transparent;
+}
+
+nav {
+
+}

@@ -1,0 +1,89 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.page-header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.page-header h1 {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.page-header img {
+    max-width: 150px;
+    background-color: transparent;
+}
+
+
+.form-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.form-container table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+.form-container th,
+.form-container td {
+    text-align: left;
+    font-size: 1em;
+}
+
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #87cefa;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="number"]:focus,
+.form-container select:focus {
+    outline: none;
+    border-color: #ff69b4;
+}
+
+
+.btn.submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn.submit:hover {
+    background-color: #ff85c1;
+}
+
+.image img{
+    background-color: transparent;
+    border-radius: 50px;
+}
